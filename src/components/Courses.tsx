@@ -123,7 +123,7 @@ const Courses: React.FC = () => {
             </p>
             <div className="pt-4">
               <Link
-                to="/classes"
+                to="/courses#courses"
                 className="inline-flex items-center space-x-2 bg-gradient-to-r from-pink-500 to-rose-500 text-white px-8 py-4 rounded-full font-bold hover:from-pink-600 hover:to-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 <span>View All Classes</span>

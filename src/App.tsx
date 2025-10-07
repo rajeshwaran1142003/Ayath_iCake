@@ -4,7 +4,7 @@ import { useState, useEffect, Suspense } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Classes from './pages/Classes';
+import Course from './pages/Course';
 import CourseDetail from './pages/CourseDetail';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -59,9 +59,12 @@ function App() {
         <Header />
         <Suspense fallback={<Loading />}>
           <PageTransition>
+            {/* Hash-based smooth scrolling across routes */}
+            <HashScroller />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/courses" element={<Classes />} />
+              <Route path="/courses" element={<Course />} />
+              {/* Removed /courses route; homepage shows all classes */}
               <Route path="/course/:courseId" element={<CourseDetail />} />
               <Route path="/courses/basic" element={<BasicCourse />} />
               <Route path="/courses/advanced" element={<AdvancedCourse />} />
@@ -84,3 +87,24 @@ function App() {
 }
 
 export default App;
+
+// Smoothly scroll to hash targets when the URL contains a hash (e.g., /#courses)
+function HashScroller() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (!location.hash) return;
+    const id = location.hash.replace('#', '');
+    const scrollToTarget = () => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    };
+    // Delay to ensure the target is rendered
+    const timer = window.setTimeout(scrollToTarget, 50);
+    return () => window.clearTimeout(timer);
+  }, [location.pathname, location.hash]);
+
+  return null;
+}
