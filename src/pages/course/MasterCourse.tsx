@@ -37,7 +37,7 @@ const MasterCourse: React.FC = () => {
             </div>
             <h1 className="mt-4 text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">Master Baking Class</h1>
             <p className="text-lg md:text-xl text-gray-700 mt-4 leading-relaxed">
-              Our Master Baking Class is designed for those who want to perfect their craft. You will learn professional techniques, creating everything from elegant pastries to sophisticated multi-layered cakes.
+              Our Master Baking Class is designed for those who want to perfect their craft. You will learn professional techniques and create everything from elegant pastries to sophisticated multi-layered cakes.
             </p>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="flex items-center space-x-2 bg-white rounded-xl px-3 py-2 shadow-sm border border-gray-200">
@@ -63,21 +63,31 @@ const MasterCourse: React.FC = () => {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 grid grid-cols-1 lg:grid-cols-3 gap-10">
         {/* COURSE CONTENT GRID */}
+        
         <div className="lg:col-span-2">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What You'll Learn</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 font-serif">
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-gray-900 mb-4 text-xl">Introduction</h3>
+              <div className="space-y-3 text-gray-800 text-base md:text-lg">
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Introduction to Baking</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Outlook on Oven and Its Usage</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Equipment and Ingredients Used</span></div>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Cakes & Sponges</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Vanilla sponge</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate sponge</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black forest cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Strawberry glaze cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Vanilla Sponge</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate Sponge</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black forest Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Strawberry glaze Cake</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate Truffle Cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tender coconut cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Twoteir wedding Cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Rosamalai cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Fordant theme cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tender coconut Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Two-tier wedding Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Rosamalai Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Fondant Theme Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Barbie Cake</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -94,9 +104,10 @@ const MasterCourse: React.FC = () => {
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Cookies</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Salt Cookies</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Butter Salt Cookies</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Coconut cookie</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cosak cookie</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cluten free Cookie</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">

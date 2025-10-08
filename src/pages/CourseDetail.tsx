@@ -49,7 +49,7 @@ const CourseDetail: React.FC = () => {
       image: '/img/design(4).png',
       heroImage: '/img/design(4).png',
       description: 'Perfect for beginners, learn the fundamentals of baking with step-by-step guidance.',
-      fullDescription: 'Perfect for beginners, our Basic Baking Class will teach you the fundamentals of baking. You’ll learn to create delicious cakes, cookies, brownies, and more, with step-by-step guidance.',
+      fullDescription: 'Perfect for beginners, our Basic Baking Class teaches the fundamentals of baking. You’ll learn to create delicious cakes, cookies, brownies, and more with step-by-step guidance.',
       highlights: [
         'Cakes: Black floral cake',
         'Cakes: Kurt & Krimp cake',
@@ -60,7 +60,7 @@ const CourseDetail: React.FC = () => {
         'Desserts: Cupcake',
         'Desserts: Tea cake',
         'Cookies: Coconut cookie',
-        'Cookies: Salt cookie',
+        'Cookies: Salt cookies',
         'Cookies: Cosak cookie'
       ],
       whatYouLearn: [
@@ -121,7 +121,7 @@ const CourseDetail: React.FC = () => {
       image: '/img/design(5).png',
       heroImage: '/img/design(5).png',
       description: 'Focus on more complex recipes and techniques. From wedding cakes to buttercream frosting, become a baking expert.',
-      fullDescription: 'Ready to take your skills to the next level? The Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you’ll become a baking expert.',
+      fullDescription: 'Ready to take your skills to the next level? Our Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you’ll build expert-level skills.',
       highlights: [
         'Cakes: Introduction',
         'Cakes: Vanilla sponge',
@@ -131,7 +131,7 @@ const CourseDetail: React.FC = () => {
         'Cakes: Chocolate Truffle Cake',
         'Cakes: Choco buffalo cake',
         'Cakes: Ramanini cake',
-        'Cakes: Butter scotch',
+        'Cakes: Butterscotch cake',
         'Desserts: Brownie',
         'Desserts: Jes cakes',
         'Desserts: Cupcake',
@@ -217,9 +217,9 @@ const CourseDetail: React.FC = () => {
         'Cakes & Sponges: Strawberry glaze cake',
         'Cakes & Sponges: Chocolate Truffle Cake',
         'Cakes & Sponges: Tender coconut cake',
-        'Cakes & Sponges: Twoteir wedding cake',
-        'Cakes & Sponges: Rosamalai cake',
-        'Cakes & Sponges: Fordant theme cake',
+        'Cakes & Sponges: Two-tier wedding cake',
+        'Cakes & Sponges: Rasmalai cake',
+        'Cakes & Sponges: Fondant theme cake',
         'Icings: Whipped Cream Icing',
         'Icings: Butter Cream Icing',
         'Icings: Fondant Icing',

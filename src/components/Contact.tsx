@@ -41,15 +41,15 @@ const Contact: React.FC = () => {
         {/* Header */}
         <div className="text-center space-y-4 mb-16">
           <div className="inline-block bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm font-medium">
-            Get In Touch
+            Get in Touch
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
             Ready to Make Your
             <span className="block text-pink-600">Celebration Sweeter?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Let's create something amazing together! Contact us for custom orders, 
-            bulk bookings, or any questions about our delicious offerings.
+            Let's create something amazing together. Contact us for custom orders, 
+            bulk bookings, or any questions about our offerings.
           </p>
         </div>
 

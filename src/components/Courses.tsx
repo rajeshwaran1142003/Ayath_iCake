@@ -15,7 +15,7 @@ const Courses: React.FC = () => {
       schedule: '10:30 AM - 2:00 PM',
       level: 'Beginner Friendly',
       image: '/img/design(4).png?v=2',
-      description: 'Perfect for beginners, our Basic Baking Class will teach you the fundamentals of baking. You\'ll learn to create delicious cakes, cookies, brownies, and more, with step-by-step guidance.',
+      description: 'Perfect for beginners, our Basic Baking Class teaches the fundamentals of baking. You\'ll learn to create delicious cakes, cookies, brownies, and more with step-by-step guidance.',
       highlights: [
         'Vanilla & Chocolate Sponge Cakes',
         'Brownies & Cupcakes',
@@ -45,7 +45,7 @@ const Courses: React.FC = () => {
       schedule: '10:30 AM - 2:00 PM',
       level: 'Advanced',
       image: '/img/design(5).png?v=2',
-      description: 'Ready to take your skills to the next level? The Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you\'ll become a baking expert.',
+      description: 'Ready to take your skills to the next level? Our Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you\'ll build expert-level skills.',
       highlights: [
         'Wedding Cakes & Themed Cakes',
         'Fondant Icing & Advanced Decoration',
@@ -74,7 +74,7 @@ const Courses: React.FC = () => {
       schedule: '10:30 AM - 2:00 PM',
       level: 'Expert',
       image: '/img/design.png?v=2',
-      description: 'Our Master Baking Class is designed for those who want to perfect their craft. You will learn professional techniques, creating everything from elegant pastries to sophisticated multi-layered cakes.',
+      description: 'Our Master Baking Class is designed for those who want to perfect their craft. You will learn professional techniques and create everything from elegant pastries to sophisticated multi-layered cakes.',
       highlights: [
         'Multi-layered Cakes & Tiered Wedding Cakes',
         'Advanced Buttercream & Fondant Artistry',

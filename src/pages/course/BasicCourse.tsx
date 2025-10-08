@@ -38,7 +38,7 @@ const BasicCourse: React.FC = () => {
             </div>
             <h1 className="mt-4 text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">Basic Baking Class</h1>
             <p className="text-lg md:text-xl text-gray-700 mt-4 leading-relaxed">
-              Perfect for beginners, our Basic Baking Class will teach you the fundamentals of baking. You'll learn to create delicious cakes, cookies, brownies, and more, with step-by-step guidance.
+              Perfect for beginners, our Basic Baking Class teaches the fundamentals of baking. You'll learn to create delicious cakes, cookies, brownies, and more with step-by-step guidance.
             </p>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="flex items-center space-x-2 bg-white rounded-xl px-3 py-2 shadow-sm border border-gray-200">
@@ -70,19 +70,21 @@ const BasicCourse: React.FC = () => {
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Cakes</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black floral cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Kurt & Krimp cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Introduction</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Vanilla & Chocolate sponge</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black forest cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Fruit filler cakes</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Culage cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Butler Scotch cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Butterscotch cake</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Desserts</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Brownie</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Jes cakes</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cupcake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tea cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Jas Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cup  Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tea Cake</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 md:col-span-2 shadow-sm hover:shadow-md transition-shadow">

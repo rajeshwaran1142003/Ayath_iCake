@@ -37,7 +37,7 @@ const AdvancedCourse: React.FC = () => {
             </div>
             <h1 className="mt-4 text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">Advanced Baking Class</h1>
             <p className="text-lg md:text-xl text-gray-700 mt-4 leading-relaxed">
-              Ready to take your skills to the next level? The Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you'll become a baking expert.
+              Ready to take your skills to the next level? Our Advanced Baking Class focuses on more complex recipes and techniques. From wedding cakes to buttercream frosting, you'll build expert-level skills.
             </p>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="flex items-center space-x-2 bg-white rounded-xl px-3 py-2 shadow-sm border border-gray-200">
@@ -70,38 +70,37 @@ const AdvancedCourse: React.FC = () => {
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Cakes</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Introduction</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Vanilla sponge</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate sponge</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black forest cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Fruit filler cakes</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Vanilla Sponge</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate Sponge</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Black forest Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Fruit filler Cake</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Chocolate Truffle Cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Choco buffalo cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Ramanini cake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Butter scotch</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Rosamalai Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Burble Cake</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Desserts</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Brownie</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Jes cakes</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cupcake</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tea cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Jas Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cup Cake</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Tea Cake</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Cookies</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Salt cookies</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Coconut cookie</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cosak cookie</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Salt Cookie</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Coconut Cookie</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Cosak Cookie</span></div>
               </div>
             </div>
             <div className="bg-white rounded-2xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-4 text-xl">Breads & Buns</h3>
               <div className="space-y-3 text-gray-800 text-base md:text-lg">
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Coconut bun</span></div>
-                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Liquid bread</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Coconut Bun</span></div>
+                <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Lualic Bread</span></div>
                 <div className="flex items-start space-x-3"><span className="text-pink-600">🍰</span><span>Pizza</span></div>
               </div>
             </div>

@@ -41,14 +41,14 @@ const About: React.FC = () => {
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Welcome to Ayath_iCakes, where every bite tells a story of dedication and craftsmanship. 
-                Located at Samthariya Nagar in Ambattur, Chennai, we are a certified baking studio that transforms 
+                Located in Samthariya Nagar, Ambattur, Chennai, we are a certified baking studio that transforms 
                 ordinary celebrations into extraordinary memories.
               </p>
             </div>
 
             <div className="prose prose-lg text-gray-600">
               <p>
-                Our journey began with a simple dream - to bring joy through exceptional baking. 
+                Our journey began with a simple dream—to bring joy through exceptional baking. 
                 Today, we're proud to run certified course programs, ensuring quality and trust in every class.
               </p>
             </div>
@@ -58,7 +58,7 @@ const About: React.FC = () => {
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                  <span>Fusion Cakes with unique flavor combinations</span>
+                  <span>Fusion cakes with unique flavor combinations</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
@@ -66,7 +66,7 @@ const About: React.FC = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
-                  <span>Gourmet Brownies that melt in your mouth</span>
+                  <span>Gourmet brownies that melt in your mouth</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full"></div>

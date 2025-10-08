@@ -7,19 +7,19 @@ const Testimonials: React.FC = () => {
       name: 'Priya R.',
       location: 'Chennai',
       rating: 5,
-      text: 'Ordered a fusion mango cake for my daughter\'s birthday - absolutely divine! The presentation was stunning and taste even better! The team at Ayath_iCakes exceeded all our expectations.'
+      text: 'Ordered a fusion mango cake for my daughter\'s birthday—absolutely divine! The presentation was stunning, and the taste was even better. The team at Ayath_iCakes exceeded all our expectations.'
     },
     {
       name: 'Rajesh K.',
       location: 'Regular Customer',
       rating: 5,
-      text: 'Best truffle cake in Ambattur! The quality and freshness is unmatched. Have been ordering from them for over a year now. Highly recommend Ayath_iCakes for any celebration!'
+      text: 'Best truffle cake in Ambattur! The quality and freshness are unmatched. I have been ordering from them for over a year. Highly recommend Ayath_iCakes for any celebration!'
     },
     {
       name: 'Sneha M.',
       location: 'Corporate Client',
       rating: 5,
-      text: 'Professional service, on-time delivery, and the brownies were a hit at our office party. The attention to detail and customer service is exceptional. Will definitely order again!'
+      text: 'Professional service, on-time delivery, and the brownies were a hit at our office party. The attention to detail and customer service are exceptional. Will definitely order again!'
     }
   ];
 
@@ -43,8 +43,8 @@ const Testimonials: React.FC = () => {
             <span className="block text-pink-600">Say About Us</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our happy customers who have experienced 
-            the magic of our cakes
+            Don't just take our word for it—hear from our happy customers who have experienced 
+            the magic of our cakes.
           </p>
         </div>
 

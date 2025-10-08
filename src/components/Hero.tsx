@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             </div>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-              Learn hands-on from basics to advanced. Small batches, structured modules, and certificate on completion.
+              Learn hands-on, from basics to advanced. Small batches, structured modules, and a certificate upon completion.
             </p>
             
             <div className="space-y-4">
