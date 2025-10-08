@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
             </div>
             
             {/* Floating Elements */}
-            <div className="absolute -top-4 -left-4 bg-white p-4 rounded-2xl shadow-xl animate-bounce">
+            <div className="absolute -top-4 -left-4 bg-white p-4 rounded-2xl shadow-xl">
               <div className="text-2xl">🎂</div>
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-2xl shadow-xl animate-pulse">
